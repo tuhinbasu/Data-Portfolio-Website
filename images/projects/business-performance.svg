@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300">
+  <rect width="480" height="300" fill="#EEF2F5"/>
+  <rect x="24" y="24" width="432" height="252" rx="6" fill="#FFFFFF" stroke="#E1E4E1"/>
+  <text x="44" y="52" font-family="Inter, sans-serif" font-size="12" fill="#6B7280">Quarterly KPI comparison</text>
+  <rect x="48" y="180" width="36" height="72" fill="#DCE9E8"/>
+  <rect x="100" y="150" width="36" height="102" fill="#DCE9E8"/>
+  <rect x="152" y="120" width="36" height="132" fill="#3E7C7A"/>
+  <rect x="204" y="160" width="36" height="92" fill="#DCE9E8"/>
+  <rect x="256" y="100" width="36" height="152" fill="#3E7C7A"/>
+  <rect x="308" y="170" width="36" height="82" fill="#DCE9E8"/>
+  <rect x="360" y="140" width="36" height="112" fill="#DCE9E8"/>
+  <line x1="48" y1="252" x2="396" y2="252" stroke="#E1E4E1"/>
+</svg>

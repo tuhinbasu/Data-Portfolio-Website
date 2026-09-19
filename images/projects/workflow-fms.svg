@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300">
+  <rect width="480" height="300" fill="#EEF2F5"/>
+  <rect x="24" y="24" width="432" height="252" rx="6" fill="#FFFFFF" stroke="#E1E4E1"/>
+  <text x="44" y="52" font-family="Inter, sans-serif" font-size="12" fill="#6B7280">Task status</text>
+  <circle cx="140" cy="170" r="70" fill="none" stroke="#E1E4E1" stroke-width="16"/>
+  <circle cx="140" cy="170" r="70" fill="none" stroke="#3E7C7A" stroke-width="16" stroke-dasharray="310 440" transform="rotate(-90 140 170)"/>
+  <text x="140" y="176" font-family="Inter, sans-serif" font-size="22" fill="#24272B" font-weight="600" text-anchor="middle">68%</text>
+  <text x="140" y="192" font-family="Inter, sans-serif" font-size="10" fill="#6B7280" text-anchor="middle">completed</text>
+  <rect x="272" y="120" width="160" height="14" rx="3" fill="#DCE9E8"/>
+  <rect x="272" y="146" width="120" height="14" rx="3" fill="#DCE9E8"/>
+  <rect x="272" y="172" width="140" height="14" rx="3" fill="#F5F7F6"/>
+  <rect x="272" y="198" width="90" height="14" rx="3" fill="#F5F7F6"/>
+</svg>

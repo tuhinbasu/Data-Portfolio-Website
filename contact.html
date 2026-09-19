@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Tuhin Basu</title>
+<meta name="description" content="Get in touch with Tuhin Basu for data and business analytics projects.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📊</text></svg>">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">Tuhin Basu</a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="primary-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="tight">
+  <div class="wrap">
+    <div style="max-width:520px; margin-bottom:56px;">
+      <h1>Let's talk about data.</h1>
+      <p>Whether you have a project, an analytics problem, a freelance opportunity or simply want to connect, feel free to reach out.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div>
+        <div class="contact-item">
+          <h3>Email</h3>
+          <a href="mailto:hello@example.com">hello@example.com</a>
+        </div>
+        <div class="contact-item">
+          <h3>LinkedIn</h3>
+          <a href="https://linkedin.com/in/placeholder">linkedin.com/in/placeholder</a>
+        </div>
+        <div class="contact-item">
+          <h3>GitHub</h3>
+          <a href="https://github.com/placeholder">github.com/placeholder</a>
+        </div>
+        <div class="contact-item">
+          <h3>Resume</h3>
+          <a href="resume.pdf">Download Resume</a>
+        </div>
+      </div>
+
+      <form id="contact-form">
+        <div class="field">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+        </div>
+        <div class="field">
+          <label for="subject">Subject</label>
+          <input id="subject" name="subject" type="text">
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn primary">Send Message</button>
+        <p class="form-note" id="form-note" style="display:none;">Thanks — this form isn't wired to a backend yet, but your message would send here.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <p class="foot-name">Tuhin Basu</p>
+      <p class="foot-role">Data Analyst | Business Analyst</p>
+    </div>
+    <div class="foot-links">
+      <a href="https://linkedin.com/in/placeholder">LinkedIn</a>
+      <a href="https://github.com/placeholder">GitHub</a>
+      <a href="mailto:hello@example.com">Email</a>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <div class="wrap"><p>© 2026 Tuhin Basu. All rights reserved.</p></div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('contact-form').addEventListener('submit', function (e) {
+    e.preventDefault()
+    // Placeholder: wire this up to an email service (e.g. Formspree, EmailJS)
+    // or your own backend endpoint before going live.
+    document.getElementById('form-note').style.display = 'block'
+  })
+</script>
+<script src="js/main.js"></script>
+</body>
+</html>
